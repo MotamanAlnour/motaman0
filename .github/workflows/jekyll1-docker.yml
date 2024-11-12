@@ -20,7 +20,7 @@ jobs:
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
             - name: Close Stale Issues
             - name: Setup Node.js environment
-             uses:actions/setup-node@v4.0.1
+              uses:actions/setup-node@v4.0.1
  with:
     # Set always-auth in npmrc.
     always-auth: # optional, default is false
